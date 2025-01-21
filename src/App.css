@@ -1,0 +1,130 @@
+/* General styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Set background image and other general styles */
+body {
+  background-image: url('https://img.freepik.com/free-vector/sky-background-video-conferencing_23-2148623068.jpg?t=st=1737496874~exp=1737500474~hmac=83a7cb55deb0301bb64a38035db8c6b326e543f773d02733947415aefed887ae&w=1380'); /* Example image */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* Container that holds the entire weather app */
+.app {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input field and button container */
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 60%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+  font-size: 1em;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.loading {
+  text-align: center;
+  color: #888;
+}
+
+/* Weather card */
+.weather-card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weather-card h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.description {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.temperature {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.weather-card p {
+  font-size: 1.1em;
+  color: #666;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .input-field {
+    width: 100%;
+  }
+}
+
+/* Additional styling for the time */
+.time {
+  font-size: 1.2em;
+  margin-top: 20px;
+  color: #333;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Weather icon styling */
+.weather-icon {
+  width: 100px; /* Resize icon */
+  height: 100px;
+  margin: 10px 0;
+}
+
