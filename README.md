@@ -96,6 +96,6 @@ This project is open-source and available under the [MIT License](https://openso
 If you have any questions or feedback, feel free to reach out:
 
 - **Email**: realjakeanderson@gmail.com
-- **GitHub**: [jakeanderson-dev]((https://github.com/jakeanderson-dev))
+- **GitHub**: [jakeanderson-dev](https://github.com/jakeanderson-dev)
 
 
